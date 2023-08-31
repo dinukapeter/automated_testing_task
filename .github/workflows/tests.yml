@@ -25,7 +25,7 @@ jobs:
       run: python -m pip install pytest
 
     - name: Run tests
-      run: pytest tests/
+      run: pytest ./pycalculator/tests/
 
     - name: Upload test results
       uses: actions/upload-artifact@v2
