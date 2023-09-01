@@ -1,4 +1,4 @@
-from automated_testing_task.calculator import calculator
+from home.runner.work.automated_testing_task.automated_testing_task.calculator import calculator
 
 def test_add():
     assert calculator.add(2, 3) == 5
