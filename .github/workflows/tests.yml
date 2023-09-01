@@ -21,9 +21,9 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         
-    - name: Set PYTHONPATH
-      run: |
-        export PYTHONPATH="$PYTHONPATH:/."
+    # - name: Set PYTHONPATH
+    #   run: |
+    #     export PYTHONPATH="$PYTHONPATH:/."
 
     - name: Install pytest
       run: python -m pip install pytest
