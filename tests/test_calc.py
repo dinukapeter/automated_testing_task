@@ -1,3 +1,7 @@
+
+# Add the parent directory (project root) to the Python path
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 import calculator
 
 def test_add():
