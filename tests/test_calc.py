@@ -4,7 +4,7 @@ import sys
 # Add the parent directory (project root) to the Python path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from calculator import *
+from calculator import add,subtract,multiply,divide
 
 def test_add():
     assert add(2, 3) == 5
